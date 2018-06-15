@@ -1,0 +1,30 @@
+@import 'colors.less';
+
+.app-container {
+    margin-top: 200px;
+    .shorten-container {
+        margin: 50px 30px;
+        .input-area {
+            display: flex;
+            .shorten-input {
+                flex: 1;
+                margin-right: 10px;
+            }
+        }
+        .shortened-url {
+            color: @blue-500;
+        }
+        .error-msg {
+            color: @red-400;
+        }
+    }
+    .url-list-container {
+        margin: 50px 30px;
+        .url-list-row {
+            display: flex;
+            .url-link {
+                margin-left: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button onClick 1`] = `
+<div
+  className="comp-input-box "
+>
+  <div
+    className="comp-input-group  "
+  >
+    <input
+      className="comp-input"
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder={null}
+      readOnly={false}
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Input 1`] = `
+<div
+  className="comp-input-box "
+>
+  <div
+    className="comp-input-group  "
+  >
+    <input
+      className="comp-input"
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder={null}
+      readOnly={false}
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Input snapshot 1`] = `
+<div
+  className="comp-input-box shorten-input"
+>
+  <div
+    className="comp-input-group  "
+  >
+    <input
+      className="comp-input"
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Type in a link to shorten it"
+      readOnly={false}
+      value="test"
+    />
+  </div>
+</div>
+`;

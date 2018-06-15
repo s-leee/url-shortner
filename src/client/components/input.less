@@ -1,0 +1,23 @@
+@import 'colors.less';
+
+.comp-input-box {
+    .comp-input-group {
+        .comp-input {
+            display: block;
+            width: 100%;
+            min-width: 60px;
+            box-sizing: border-box;
+            background-color: @white;
+            border: none;
+            box-shadow: inset @neutral-400 0 0 0 1px;
+            border-radius: 3px;
+            padding: 8px 12px;
+            color: @neutral-800;
+            -webkit-appearance: none;
+            &:focus {
+                outline: none;
+                box-shadow: @blue-400 0 0 0 2px;
+            }
+        }
+    }
+}
